@@ -7,11 +7,11 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Krapets Holiday</title>
+        <title>Крапец Холидей</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css">
         <!-- Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="css/animate.css" rel="stylesheet" />
@@ -19,9 +19,12 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="color/default.css" rel="stylesheet">
 
+
     </head>
 
     <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
         <!-- Preloader -->
         <div id="preloader">
             <div id="load"></div>
@@ -34,29 +37,38 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <h1>Krapets Holiday</h1>
+                        <h1>Крапец Холидей</h1>
                     </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#intro">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#service">Price</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="indexbg.html">Български</a></li>
-                        <!--        <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                  <ul class="dropdown-menu">
-                                    <li><a href="#">Example menu</a></li>
-                                    <li><a href="#">Example menu</a></li>
-                                    <li><a href="#">Example menu</a></li>
-                                  </ul>
-                                </li>-->
+                        <li class="active"><a href="#intro">Начало</a></li>
+                        <li><a href="#about">За нас</a></li>
+                        <!--                        <li><a href="#houses">Къщите</a></li>-->
+                        <li><a href="#prices">Цени</a></li>
+                        <li><a href="#gallery">Къщите</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">За село Крапец <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#village">Плаж</a></li>
+                                <li><a href="#entertainment">Заведения</a></li>
+                                <li><a href="#infrastructure">Инфраструктура</a></li>
+                                <li><a href="#landscape">Природа</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Забележителности <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#landmarks">Калиакра</a></li>
+                                <li><a href="#shabla">Шабла</a></li>
+                                <li><a href="#kavarna">Каварна</a></li>
+                                <li><a href="#durankulak">Дуранкулак</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">Контакти</a></li>
+                        <li><a href="#">English</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -68,11 +80,11 @@
         <section id="intro" class="intro">
 
             <div class="slogan">
-                <h2>WELCOME TO <span class="text_color">Krapets Holiday</span> </h2>
-                <h4>Sea holidays in Bulgaria</h4>
+                <h2>Добре дошли в <span class="text_color">Крапец Холидей</span> </h2>
+                <h4>Почивка на море в България сред тишина, зеленина и уют</h4>
             </div>
             <div class="page-scroll">
-                <a href="#service" class="btn btn-circle">
+                <a href="#about" class="btn btn-circle">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>
@@ -87,7 +99,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="wow bounceInDown" data-wow-delay="0.4s">
                                 <div class="section-heading">
-                                    <h2>About us</h2>
+                                    <h2>За нас</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
 
                                 </div>
@@ -108,9 +120,9 @@
                         <div class="wow bounceInUp" data-wow-delay="0.2s">
                             <div class="team boxed-grey">
                                 <div class="inner">
-                                    <h5>Anna Hanaceck</h5>
-                                    <p class="subtitle">Pixel Crafter</p>
-                                    <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
+                                    <h5>Lorem ipsum</h5>
+                                    <p class="subtitle">Lorem ipsum</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/img_8.jpg" alt="" class="img-responsive img-circle" /></div>
                                 </div>
                             </div>
                         </div>
@@ -119,9 +131,9 @@
                         <div class="wow bounceInUp" data-wow-delay="0.5s">
                             <div class="team boxed-grey">
                                 <div class="inner">
-                                    <h5>Maura Daniels</h5>
-                                    <p class="subtitle">Ruby on Rails</p>
-                                    <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
+                                    <h5>Lorem ipsum</h5>
+                                    <p class="subtitle">Lorem ipsum</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/img_20.jpg" alt="" class="img-responsive img-circle" /></div>
 
                                 </div>
                             </div>
@@ -131,9 +143,9 @@
                         <div class="wow bounceInUp" data-wow-delay="0.8s">
                             <div class="team boxed-grey">
                                 <div class="inner">
-                                    <h5>Jack Briane</h5>
-                                    <p class="subtitle">jQuery Ninja</p>
-                                    <div class="avatar"><img src="img/team/3.jpg" alt="" class="img-responsive img-circle" /></div>
+                                    <h5>Lorem ipsum</h5>
+                                    <p class="subtitle">Lorem ipsum</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/img_6.jpg" alt="" class="img-responsive img-circle" /></div>
 
                                 </div>
                             </div>
@@ -143,10 +155,9 @@
                         <div class="wow bounceInUp" data-wow-delay="1s">
                             <div class="team boxed-grey">
                                 <div class="inner">
-                                    <h5>Tom Petterson</h5>
-                                    <p class="subtitle">Typographer</p>
-                                    <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
-
+                                    <h5>Lorem ipsum</h5>
+                                    <p class="subtitle">Lorem ipsum</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/img_41.jpg" alt="" class="img-responsive img-circle" /></div>
                                 </div>
                             </div>
                         </div>
@@ -156,17 +167,15 @@
         </section>
         <!-- /Section: about -->
 
-
-        <!-- Section: services -->
-        <section id="service" class="home-section text-center bg-gray">
-
+        <!-- Section: houses -->
+        <section id="houses" class="home-section text-center bg-gray">
             <div class="heading-about">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="wow bounceInDown" data-wow-delay="0.4s">
                                 <div class="section-heading">
-                                    <h2>Our Services</h2>
+                                    <h2> Къщите</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
 
                                 </div>
@@ -176,6 +185,29 @@
                 </div>
             </div>
             <div class="container">
+
+            </div>
+        </section>
+        <!-- /Section: houses -->
+
+        <!-- Section: prices -->
+        <section id="prices" class="home-section text-center bg-gray">
+            <div class="heading-about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="wow bounceInDown" data-wow-delay="0.4s">
+                                <div class="section-heading">
+                                    <h2>Цени за настаняване</h2>
+                                    <i class="fa fa-2x fa-angle-down"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-lg-offset-5">
                         <hr class="marginbot-50">
@@ -235,22 +267,306 @@
                         </div>
                     </div>
                 </div>		
-            </div>
+            </div>-->
         </section>
-        <!-- /Section: services -->
+        <!-- /Section: prices -->
 
-
-
-
-        <!-- Section: contact -->
-        <section id="contact" class="home-section text-center">
-            <div class="heading-contact">
+        <!-- Section: gallery -->
+        <section id="gallery" class="home-section text-center bg-gray">
+            <div class="heading-about">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="wow bounceInDown" data-wow-delay="0.4s">
                                 <div class="section-heading">
-                                    <h2>Get in touch</h2>
+                                    <h2>Къщите</h2>
+                                    <i class="fa fa-2x fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                    <a href="img/gallery/img_1.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_1.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_2.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_2.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_3.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_3.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_4.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_4.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_5.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_5.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_6.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_6.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_7.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_7.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_8.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_8.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_9.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_9.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_10.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_10.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_11.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_11.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_12.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_12.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_13.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_14.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_14.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_15.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_15.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_16.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_16.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_17.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_17.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_18.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_18.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_19.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_19.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_20.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_20.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_21.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_21.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_22.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_22.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_23.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_23.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_24.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_24.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_25.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_25.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_26.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_26.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_27.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_27.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_28.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_28.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_29.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_29.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_30.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_30.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_31.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_31.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_32.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_32.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_33.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_33.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_34.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_34.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_35.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_35.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_36.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_36.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_37.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_37.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_38.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_38.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_39.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_39.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_40.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_40.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_41.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_41.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_42.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_42.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_43.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_43.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/img_44.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/gallery/thumbnail/img_44.jpg" alt="" />
+                    </a>                
+            </div>
+        </section>
+        <!-- /Section: gallery -->
+
+        <!-- Section: village -->
+        <section id="village" class="home-section text-center bg-gray">
+            <div class="heading-about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="wow bounceInDown" data-wow-delay="0.4s">
+                                <div class="section-heading">
+                                    <h2>За село Крапец</h2>
+                                    <i class="fa fa-2x fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h5>Плаж Крапец</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <div class="video-container">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/X3-6ReWKaLs" frameborder="0" allowfullscreen></iframe>
+                    </div>>
+                    <a href="img/krapets/2.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/2.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/4.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/4.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/5.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/5.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/6.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/6.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/7.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/7.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/8.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/8.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/9.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/9.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/10.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/10.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/11.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/11.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/12.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/12.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/13.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/14.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/14.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/15.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/15.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/16.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/16.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/17.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/17.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/18.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/18.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/19.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/19.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/20.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/20.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/21.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/21.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/22.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/22.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/3.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/3.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/23.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/23.jpg" alt="" />
+                    </a>
+                        <a href="img/krapets/1.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/1.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/24.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img class = "item" src="img/krapets/thumbnail/24.jpg" alt="" />
+                    </a>
+                    </div>
+                <section id="entertainment" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Магазини и заведения в близост до плаж Крапец</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                </div>
+                <section id="infrastructure" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Инфраструктура</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/1.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/1.jpg" alt="" />
+                    </a>
+                     <a href="img/krapets/2.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/2.jpg" alt="" />
+                    </a>
+                </div>
+                <section id="landscape" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Природа</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /Section: village -->
+
+        <!-- Section: landmarks -->
+        <section id="landmarks" class="home-section text-center bg-gray">
+
+            <div class="heading-about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="wow bounceInDown" data-wow-delay="0.4s">
+                                <div class="section-heading">
+                                    <h2>Забележителности</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
 
                                 </div>
@@ -260,7 +576,74 @@
                 </div>
             </div>
             <div class="container">
+                 <div class="row">
+                    <h5>Калиакра</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                </div>
+                <section id="shabla" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Шабла</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                </div>
+                <section id="kavarna" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Каварна</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                </div>
+                <section id="durankulak" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Дуранкулак</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
+                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /Section: landmarks -->
 
+        <!-- Section: contact -->
+        <section id="contact" class="home-section text-center">
+            <div class="heading-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="wow bounceInDown" data-wow-delay="0.4s">
+                                <div class="section-heading">
+                                    <h2>Контакти</h2>
+                                    <i class="fa fa-2x fa-angle-down"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main-content">
+                <h2>Намерете ни и в <strong>Google Maps</strong>:</h2>
+                <br class="clear" />
+                <!--                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCp6H3I1QqMS2sTNkWoK7nf3Rq3hq98BaU'></script><div style='overflow:hidden;height:413px;width:746px;'><div id='gmap_canvas' style='height:413px;width:746px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>google maps widget html</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=c5b2f8c99e8d7dfa1d51f5f82b58fdb8825435fd'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:19,center:new google.maps.LatLng(43.6255130300338,28.56907647771471),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.6255130300338,28.56907647771471)});infowindow = new google.maps.InfoWindow({content:'<strong>Krapets Holiday</strong><br><br> Krapets<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>-->
                 <div class="row">
                     <div class="col-lg-2 col-lg-offset-5">
                         <hr class="marginbot-50">
@@ -277,36 +660,36 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="name">
-                                                Name</label>
-                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                                Име</label>
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Вашето име" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                             <div class="validation"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="email">
-                                                Email Address</label>
+                                                Електронна поща</label>
                                             <div class="form-group">
-                                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Вашата електронна поща" data-rule="email" data-msg="Please enter a valid email" />
                                                 <div class="validation"></div>
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label for="subject">
-                                                Subject</label>
-                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                                Относно</label>
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Относно" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                                             <div class="validation"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="name">
-                                                Message</label>
-                                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                                Съобщение</label>
+                                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Съобщение"></textarea>
                                             <div class="validation"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                                            Send Message</button>
+                                            Изпрати</button>
                                     </div>
                                 </div>
                             </form>
@@ -315,26 +698,22 @@
 
                     <div class="col-lg-4">
                         <div class="widget-contact">
-                            <h5>Main Office</h5>
-
+                            <h5>За контакт</h5>
                             <address>
-                                <strong>Squas Design, Inc.</strong><br>
-                                Tower 795 Folsom Ave, Beautiful Suite 600<br>
-                                San Francisco, CA 94107<br>
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                                <strong>Крапец Холидей</strong><br>
+                                село Крапец<br>
+                                община Шабла<br>
+                                <abbr title="Phone">Телефон:</abbr> 0893 650 522
                             </address>
 
                             <address>
                                 <strong>Email</strong><br>
-                                <a href="mailto:#">email.name@example.com</a>
+                                <a href="mailto:">krapets_holiday@abv.bg</a>
                             </address>	
                             <address>
-                                <strong>We're on social networks</strong><br>
+                                <strong>Станете ни приятел в Facebook</strong><br>
                                 <ul class="company-social">
-                                    <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                                    <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="social-facebook"><a href="https://web.facebook.com/profile.php?id=100010404676081&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 </ul>	
                             </address>					
 
@@ -357,15 +736,9 @@
                                 </a>
                             </div>
                         </div>
-                        <p>&copy;SquadFREE. All rights reserved.</p>
+                        <p>&copy;Krapets Holiday 2017</p>
                         <div class="credits">
-                            <!-- 
-                                All the links in the footer should remain intact. 
-                                You can delete the links only if you purchased the pro version.
-                                Licensing information: https://bootstrapmade.com/license/
-                                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Squadfree
-                            -->
-                            <a href="https://bootstrapmade.com/free-one-page-bootstrap-themes-website-templates/">One Page Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            <a target="_blank" href="https://web.facebook.com/HousesKrapetsHoliday/?fref=ts">Харесайте нашата страница в Facebook</a>
                         </div>
                     </div>
                 </div>	
@@ -378,10 +751,13 @@
         <script src="js/jquery.easing.min.js"></script>	
         <script src="js/jquery.scrollTo.js"></script>
         <script src="js/wow.min.js"></script>
+
         <!-- Custom Theme JavaScript -->
         <script src="js/custom.js"></script>
-        <script src="contactform/contactform.js"></script>
+        <script src="contactform/contactform.js"></script>  
+        <script>
 
+</script>
     </body>
 
 </html>
