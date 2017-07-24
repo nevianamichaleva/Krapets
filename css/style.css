@@ -12,7 +12,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato',sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 300;
     color: #666;
     background-color: #fff;
@@ -168,6 +168,11 @@ a:focus {
     outline: 0;
 }
 /*My*/
+
+  #map {
+        height: 400px;
+        width: 80%;
+       }
  .item {
             margin: 10px;          
         }
@@ -287,8 +292,8 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+/*    padding-bottom: 40px;*/
     display:block;
     position:relative;
     z-index:120;

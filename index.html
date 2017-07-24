@@ -36,7 +36,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="#intro">
                         <h1>Крапец Холидей</h1>
                     </a>
                 </div>
@@ -44,11 +44,17 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#intro">Начало</a></li>
+                        <!--                        <li class="active"><a href="#intro">Начало</a></li>-->
                         <li><a href="#about">За нас</a></li>
-                        <!--                        <li><a href="#houses">Къщите</a></li>-->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Къщите <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#houses">Къщите</a></li>
+                                <li><a href="#kitchen">Лятна кухня</a></li>
+                                <li><a href="#courtyard">Двор</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#prices">Цени</a></li>
-                        <li><a href="#gallery">Къщите</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">За село Крапец <b class="caret"></b></a>
                             <ul class="dropdown-menu">
@@ -61,10 +67,9 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Забележителности <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#landmarks">Калиакра</a></li>
+                                <li><a href="#landmarks">Крапец</a></li>
                                 <li><a href="#shabla">Шабла</a></li>
                                 <li><a href="#kavarna">Каварна</a></li>
-                                <li><a href="#durankulak">Дуранкулак</a></li>
                             </ul>
                         </li>
                         <li><a href="#contact">Контакти</a></li>
@@ -78,7 +83,6 @@
 
         <!-- Section: intro -->
         <section id="intro" class="intro">
-
             <div class="slogan">
                 <h2>Добре дошли в <span class="text_color">Крапец Холидей</span> </h2>
                 <h4>Почивка на море в България сред тишина, зеленина и уют</h4>
@@ -101,7 +105,12 @@
                                 <div class="section-heading">
                                     <h2>За нас</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
-
+                                    <p>Kрая на май 2014 г. край култовото „огънче“ на Камен бряг се зароди идеята Крапец Холидей. 
+                                        Решихме да направим нещо различно от типичното, стаи, стаи и повече стаи за повече хора,  
+                                        самостоятелни дървени къщи в голям и зелен двор, разполагащи със всички удобства за една 
+                                        приятна и пълноценна почивка. Точно след 2 години - юни 2016 всичко беше готово и посрещнахме 
+                                        първите си гости. Основната ни цел е освен да имаме повече гости, да им предоставим всичко 
+                                        необходимо за истинска почивка сред тишина и спокойствие, насред уникалната природа на Крапец.</p>
                                 </div>
                             </div>
                         </div>
@@ -109,86 +118,63 @@
                 </div>
             </div>
             <div class="container">
-
                 <div class="row">
-                    <div class="col-lg-2 col-lg-offset-5">
-                        <hr class="marginbot-50">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="wow bounceInUp" data-wow-delay="0.2s">
-                            <div class="team boxed-grey">
-                                <div class="inner">
-                                    <h5>Lorem ipsum</h5>
-                                    <p class="subtitle">Lorem ipsum</p>
-                                    <div class="avatar"><img src="img/gallery/thumbnail/img_8.jpg" alt="" class="img-responsive img-circle" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-3">
                         <div class="wow bounceInUp" data-wow-delay="0.5s">
                             <div class="team boxed-grey">
-                                <div class="inner">
-                                    <h5>Lorem ipsum</h5>
-                                    <p class="subtitle">Lorem ipsum</p>
-                                    <div class="avatar"><img src="img/gallery/thumbnail/img_20.jpg" alt="" class="img-responsive img-circle" /></div>
-
+                                <a href="#house_4">
+                                    <div class="inner">
+                                    <h5>Къща</h5>
+                                    <p class="subtitle">с капацитет 4 човека</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/courtyard/img_31.jpg" alt="" class="img-responsive img-circle" /></div>
                                 </div>
+                                </a>    
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="wow bounceInUp" data-wow-delay="0.8s">
                             <div class="team boxed-grey">
+                                <a href="#house_6">
                                 <div class="inner">
-                                    <h5>Lorem ipsum</h5>
-                                    <p class="subtitle">Lorem ipsum</p>
-                                    <div class="avatar"><img src="img/gallery/thumbnail/img_6.jpg" alt="" class="img-responsive img-circle" /></div>
-
+                                    <h5>Къща</h5>
+                                    <p class="subtitle">с капацитет 6 човека</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/house6/img_12.jpg" alt="" class="img-responsive img-circle" /></div>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="wow bounceInUp" data-wow-delay="1s">
                             <div class="team boxed-grey">
+                                <a href="#kitchen">
                                 <div class="inner">
-                                    <h5>Lorem ipsum</h5>
-                                    <p class="subtitle">Lorem ipsum</p>
-                                    <div class="avatar"><img src="img/gallery/thumbnail/img_41.jpg" alt="" class="img-responsive img-circle" /></div>
+                                    <h5>Лятна кухня</h5>
+                                    <p class="subtitle">за около 20 човека</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/kitchen/img_8.jpg" alt="" class="img-responsive img-circle" /></a></div>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>		
+                    <div class="col-md-3">
+                        <div class="wow bounceInUp" data-wow-delay="0.2s">
+                            <div class="team boxed-grey">
+                                <a href="#courtyard">
+                                <div class="inner">
+                                    <h5>Двор</h5>
+                                    <p class="subtitle">с красива градина</p>
+                                    <div class="avatar"><img src="img/gallery/thumbnail/courtyard/img_25.jpg" alt="" class="img-responsive img-circle" /></a></div>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
             </div>
         </section>
         <!-- /Section: about -->
-
-        <!-- Section: houses -->
-        <section id="houses" class="home-section text-center bg-gray">
-            <div class="heading-about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="wow bounceInDown" data-wow-delay="0.4s">
-                                <div class="section-heading">
-                                    <h2> Къщите</h2>
-                                    <i class="fa fa-2x fa-angle-down"></i>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-
-            </div>
-        </section>
-        <!-- /Section: houses -->
 
         <!-- Section: prices -->
         <section id="prices" class="home-section text-center bg-gray">
@@ -200,79 +186,73 @@
                                 <div class="section-heading">
                                     <h2>Цени за настаняване</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
+                                    <div>
+                                        <h4>Цени за настаняване през летния сезон - от 15 юни до 15 септември</h4>
+                                        <h5>Къща с една спалня (капацитет до 4 човека): </h5>
+                                        <div class="col-xs-12 col-centered" style="padding-left:220px;">
+                                            <p class="text-left">- до 2 човека – 100 лева </p>
+                                            <p class="text-left">- за всеки допълнителен човек + 10 лв.</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-centered">
+                                                </br>
+                                            </div>
+                                            <h5>Къща с две спални (капацитет до 6 човека):</h5>
+                                            <div class="col-xs-12 col-centered" style="padding-left:220px;">
+                                                <p class="text-left">- до 4 човека – 130 лева</p>
+                                                <p class="text-left">- за всеки допълнителен човек + 10 лв.</p>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-2 col-lg-offset-5">
+                                                    <hr class="marginbot-50">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                    <div>
+                                        <h4>Цени за настаняване през периода от 15 септември до 15 юни</h4>
+                                        <h5>Къща с една спалня (капацитет до 4 човека): </h5>
+                                        <div class="col-xs-12 col-centered" style="padding-left:220px;">
+                                            <p class="text-left">- до 2 човека – 80 лева </p>
+                                            <p class="text-left">- за всеки допълнителен човек + 10 лв.</p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-centered">
+                                                </br>
+                                            </div>
+                                            <h5>Къща с две спални (капацитет до 6 човека):</h5>
+                                            <div class="col-xs-12 col-centered" style="padding-left:220px;">
+                                                <p class="text-left">- до 4 човека – 100 лева</p>
+                                                <p class="text-left">- за всеки допълнителен човек + 10 лв.</p>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-2 col-lg-offset-5">
+                                                    <hr class="marginbot-50">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Деца до 3 години се настаняват безплатно. 
+                                    <p><strong>Цените</strong> НЕ важат за официалните празници, Коледа и Нова Година. 
+                                        <strong>За Kоледните и новогодишни празници </strong>
+                                        се дава целия комплекс на цена 700 лева на вечер, за минимум две нощувки.</p>
+                                    <h4>Удоволствието да бъдем Ваши домакини започва от резервацията на избраната от вас къща</h4>
+                                    <p><strong>Резервирана</strong> е онази къща, за която сте направили 50% предплата по банков път.</p>
+                                    <p><strong>Резервация за уикенда</strong> (от петък до неделя) се прави най-много 3 дни преди това!</p>
+                                    <p><strong>За информация и резервации</strong> можете да се свържете се с нас през формата за <a href="#contact">контакт</a>, </p>
+                                    <p>както и на телефони 0893 650 522, 0895 681 745 и e-mail: <a href="mailto:">krapets_holiday@krapets.bg</a> и <a href="mailto:">krapets_holiday@abv.bg</a></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-<!--            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2 col-lg-offset-5">
-                        <hr class="marginbot-50">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="img/icons/service-icon-1.png" alt="" />
-                                </div>
-                                <div class="service-desc">
-                                    <h5>Print</h5>
-                                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="img/icons/service-icon-2.png" alt="" />
-                                </div>
-                                <div class="service-desc">
-                                    <h5>Web Design</h5>
-                                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="img/icons/service-icon-3.png" alt="" />
-                                </div>
-                                <div class="service-desc">
-                                    <h5>Photography</h5>
-                                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="wow fadeInRight" data-wow-delay="0.2s">
-                            <div class="service-box">
-                                <div class="service-icon">
-                                    <img src="img/icons/service-icon-4.png" alt="" />
-                                </div>
-                                <div class="service-desc">
-                                    <h5>Cloud System</h5>
-                                    <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>		
-            </div>-->
         </section>
         <!-- /Section: prices -->
 
-        <!-- Section: gallery -->
-        <section id="gallery" class="home-section text-center bg-gray">
+        <!-- Section: houses -->
+        <section id="houses" class="home-section text-center bg-gray">
             <div class="heading-about">
                 <div class="container">
                     <div class="row">
@@ -281,6 +261,10 @@
                                 <div class="section-heading">
                                     <h2>Къщите</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
+                                    <p>Комплексът предлага на своите гости четири едноетажни къщи. Две от тях имат дневна с оборудвана кухня и разтегателен диван и една спалня (капацитет 4 човека), другите две имат дневна с оборудвана кухня и разтегателен диван и две спални (капацитет 6 човека).
+                                        Пред всяка къща има площадка с маса и столове.
+                                        Лятната кухня също е изцяло оборудвана и разполага със закрита площ с маси за около 20 човека. Двора е голям, ограден, озеленен, идеален и за игри и за почивка.
+                                        Изключително красивата, девствена, безкрайната плажна ивица е на три минути с автомобил от комплекса. Има също обезопасена част със спасител и места за обяд или освежително питие.</p>
                                 </div>
                             </div>
                         </div>
@@ -288,138 +272,238 @@
                 </div>
             </div>
             <div class="container">
-                    <a href="img/gallery/img_1.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_1.jpg" alt="" />
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                        <hr class="marginbot-50">
+                    </div>
+                </div>
+                <section id="house_4" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Две къщи с капацитет 4 човека</h5>
+                    <p>с дневна с оборудвана кухня и разтегателен диван и една спалня (капацитет 4 човека)</p>  
+                    <a href="img/gallery/house4/img_2.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_2.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_2.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_2.jpg" alt="" />
+                    <a href="img/gallery/house4/img_3.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_3.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_3.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_3.jpg" alt="" />
+                    <a href="img/gallery/house4/img_11.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_11.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_4.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_4.jpg" alt="" />
+                    <a href="img/gallery/house4/img_14.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_14.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_5.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_5.jpg" alt="" />
+                    <a href="img/gallery/house4/img_9.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_9.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_6.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_6.jpg" alt="" />
+                    <a href="img/gallery/house4/img_17.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_17.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_7.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_7.jpg" alt="" />
+                    <a href="img/gallery/house4/img_39.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_39.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_8.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_8.jpg" alt="" />
+                    <a href="img/gallery/house4/img_23.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_23.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_9.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_9.jpg" alt="" />
+                    <a href="img/gallery/house4/img_1.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/img_1.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_10.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_10.jpg" alt="" />
+                    <a href="img/gallery/house4/lg13.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/sm13.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_11.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_11.jpg" alt="" />
+                    <a href="img/gallery/house4/lg29.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/sm29.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_12.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_12.jpg" alt="" />
+                    <a href="img/gallery/house4/lg79.jpg" data-fancybox="group" data-caption="Къща с капацитет 4 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house4/sm79.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_13.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_13.jpg" alt="" />
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                        <hr class="marginbot-50">
+                    </div>
+                </div>
+                <section id="house_6" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Две къщи с капацитет 6 човека</h5>
+                    <p>с дневна с оборудвана кухня и разтегателен диван и две спални (капацитет 6 човека)</p>
+                    <a href="img/gallery/house6/img_4.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_4.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_14.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_14.jpg" alt="" />
+                    <a href="img/gallery/house6/img_5.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_5.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_15.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_15.jpg" alt="" />
+                    <a href="img/gallery/house6/img_7.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_7.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_16.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_16.jpg" alt="" />
+                    <a href="img/gallery/house6/img_12.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_12.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_17.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_17.jpg" alt="" />
+                    <a href="img/gallery/house6/img_19.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_19.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_18.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_18.jpg" alt="" />
+                    <a href="img/gallery/house6/img_24.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_24.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_19.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_19.jpg" alt="" />
+                    <a href="img/gallery/house6/img_26.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_26.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_20.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_20.jpg" alt="" />
+                    <a href="img/gallery/house6/img_29.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_29.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_21.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_21.jpg" alt="" />
+                    <a href="img/gallery/house6/img_30.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_30.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_22.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_22.jpg" alt="" />
+                    <a href="img/gallery/house6/img_34.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_34.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_23.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_23.jpg" alt="" />
+                    <a href="img/gallery/house6/img_38.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_38.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_24.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_24.jpg" alt="" />
+                    <a href="img/gallery/house6/img_44.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_44.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_25.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_25.jpg" alt="" />
+                    <a href="img/gallery/house6/img_43.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/img_43.jpg" alt="" />
+                    </a> 
+                    <a href="img/gallery/house6/lg01.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/sm01.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_26.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_26.jpg" alt="" />
+                    <a href="img/gallery/house6/lg36.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/sm36.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_27.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_27.jpg" alt="" />
+                    <a href="img/gallery/house6/lg64.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/sm64.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_28.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_28.jpg" alt="" />
+                    <a href="img/gallery/house6/lg76.jpg" data-fancybox="group" data-caption="Къща с капацитет 6 човека">
+                        <img class = "item" src="img/gallery/thumbnail/house6/sm76.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_29.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_29.jpg" alt="" />
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                        <hr class="marginbot-50">
+                    </div>
+                </div>
+                <section id="kitchen" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Лятна кухня</h5>
+                    <p>изцяло оборудвана и разполагаща със закрита площ с маси за около 20 човека</p>
+                    <a href="img/gallery/kitchen/img_8.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_8.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_30.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_30.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_10.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_10.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_31.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_31.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_13.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_13.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_32.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_32.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_18.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_18.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_33.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_33.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_20.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_20.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_34.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_34.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_21.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_21.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_35.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_35.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_32.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_32.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_36.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_36.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_36.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_36.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_37.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_37.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_37.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_37.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_38.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_38.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_40.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_40.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_39.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_39.jpg" alt="" />
+                    <a href="img/gallery/kitchen/img_41.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/img_41.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_40.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_40.jpg" alt="" />
+                    <a href="img/gallery/kitchen/lg17.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/sm17.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_41.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_41.jpg" alt="" />
+                    <a href="img/gallery/kitchen/lg54.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/sm54.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_42.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_42.jpg" alt="" />
+                    <a href="img/gallery/kitchen/lg70.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/sm70.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_43.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_43.jpg" alt="" />
+                    <a href="img/gallery/kitchen/lg72.jpg" data-fancybox="group" data-caption="Лятна кухня">
+                        <img class = "item" src="img/gallery/thumbnail/kitchen/sm72.jpg" alt="" />
                     </a>
-                    <a href="img/gallery/img_44.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/gallery/thumbnail/img_44.jpg" alt="" />
-                    </a>                
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                        <hr class="marginbot-50">
+                    </div>
+                </div>
+                <section id="courtyard" class="home-section text-center bg-gray"></section>
+                <div class="row">
+                    <h5>Двор</h5>
+                    <p>голям, ограден, озеленен, идеален и за игри и за почивка</p>
+                    <a href="img/gallery/courtyard/img_6.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_6.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_15.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_15.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_16.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_16.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_22.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_22.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_25.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_25.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_27.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_27.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_28.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_28.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_31.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_31.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_33.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_33.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_35.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_35.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/img_42.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/img_42.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg04.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm04.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg06.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm06.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg14.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm14.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg26.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm26.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg34.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm34.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg38.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm38.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg53.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm53.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/courtyard/lg63.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/courtyard/sm63.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/village/lg23.jpg" data-fancybox="group" data-caption="Озелененият двор">
+                        <img class = "item" src="img/gallery/thumbnail/village/sm23.jpg" alt="" />
+                    </a>
+                </div>
             </div>
         </section>
         <!-- /Section: gallery -->
@@ -434,102 +518,176 @@
                                 <div class="section-heading">
                                     <h2>За село Крапец</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
+                                    <p>Село Крапец e разположено на Черно море и отстои на 10 км. северно от град Шабла и на 90км. североизточно от Варна. Селото е едно от най-спокойните кътчета на българското черноморие. Вечер може да се насладите на щурчета, а сутрин се будите от лястовички. Село Крапец се отличава с уникална природа, безкрайна плажна ивица, кристално чиста морска вода.
+                                        Ако търсите девствено място, незасегнато от строителство, без шум и навалица от хора - това е вашето местенце.
+                                    </p>  
                                 </div>
                             </div>
+                            <div class="video-container">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/X3-6ReWKaLs" frameborder="0" allowfullscreen></iframe>
+                    </div>
                         </div>
+                         
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
+                     <div class="col-lg-8 col-lg-offset-2">
                     <h5>Плаж Крапец</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                    <div class="video-container">
-                        <iframe width="853" height="480" src="https://www.youtube.com/embed/X3-6ReWKaLs" frameborder="0" allowfullscreen></iframe>
-                    </div>>
-                    <a href="img/krapets/2.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/2.jpg" alt="" />
+                    <p>Само 4 км. делят Крапец от Международен път, но тази местност е останала тиха, необятна и екологично чиста. Посетителите на този плаж могат да се наслаждават необезпокоявани на сякаш безкрайната плажна ивица, морския хоризонт и дивата природа. Дори в разгара на лятото, това райско кътче остава незасегнато от тълпите хора и всеки плажуващ може да се отдаде на спокойствие, тишина и незаменима почивка. Когато погледне на север, човек не вижда нищо друго освен море и пясъчна ивица. Това е така, защото плажните ивици на Дуранкулак и Крапец се сливат и образуват един необятен морски хоризонт. Това е едно от най-красивите места по българското черноморие.
+                        По северните плажове в България, често духа силен вятър и това е чудесно условие за любителите на кайтсърф.
+                        Пясъкът на плажната ивица на Крапец е златист и ситен, истинско удоволствие за посетителите, които могат да се любуват на безкрайната пясъчна шир. 
+                        Плажът e изключително чист. Морската вода е чиста и студена. Често има вълнение и подводни течения. 
+                        Зад плажната ивица, туристите, дошли да посетят морето, могат да наблюдават само гора и много ниви и поля.
+                        Атмосферата на това място е уникална. Веднъж, посетили Крапец, хората се връщат отново и отново и сякаш никога не могат 
+                        да му се наситят. Не могат никога да се насладят на тази девствена природа, на тази безкрайна морска пясъчна длъж и шир. 
+                        Всеки, вкусил от атмосферата на райския плаж Крапец усеща свободата, чува удара на вълните и морския бриз, нашепващи 
+                        свобода и безгранична наслада.
+                    </p>
+                     </div>
+                    <a href="img/gallery/beach/lg02.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm02.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/4.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/4.jpg" alt="" />
+                    <a href="img/gallery/beach/lg03.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm03.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/5.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/5.jpg" alt="" />
+                    <a href="img/gallery/beach/lg05.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm05.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/6.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/6.jpg" alt="" />
+                    <a href="img/gallery/beach/lg07.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm07.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/7.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/7.jpg" alt="" />
+                    <a href="img/gallery/beach/lg10.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm10.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/8.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/8.jpg" alt="" />
+                    <a href="img/gallery/beach/lg12.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm12.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/9.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/9.jpg" alt="" />
+                    <a href="img/gallery/beach/lg19.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm19.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/10.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/10.jpg" alt="" />
+                    <a href="img/gallery/beach/lg20.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm20.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/11.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/11.jpg" alt="" />
+                    <a href="img/gallery/beach/lg21.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm21.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/12.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/12.jpg" alt="" />
+                    <a href="img/gallery/beach/lg22.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm22.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/13.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/13.jpg" alt="" />
+                    <a href="img/gallery/beach/lg24.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm24.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/14.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/14.jpg" alt="" />
+                    <a href="img/gallery/beach/lg25.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm24.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/15.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/15.jpg" alt="" />
+                    <a href="img/gallery/beach/lg27.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm27.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/16.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/16.jpg" alt="" />
+                    <a href="img/gallery/beach/lg28.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm28.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/17.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/17.jpg" alt="" />
+                    <a href="img/gallery/beach/lg30.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm30.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/18.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/18.jpg" alt="" />
+                    <a href="img/gallery/beach/lg31.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm31.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/19.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/19.jpg" alt="" />
+                    <a href="img/gallery/beach/lg32.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm32.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/20.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/20.jpg" alt="" />
+                    <a href="img/gallery/beach/lg33.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm33.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/21.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/21.jpg" alt="" />
+                    <a href="img/gallery/beach/lg35.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm35.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/22.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/22.jpg" alt="" />
+                    <a href="img/gallery/beach/lg37.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm37.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/3.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/3.jpg" alt="" />
+                    <a href="img/gallery/beach/lg39.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm39.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/23.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/23.jpg" alt="" />
+                    <a href="img/gallery/beach/lg40.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm40.jpg" alt="" />
                     </a>
-                        <a href="img/krapets/1.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/1.jpg" alt="" />
+                    <a href="img/gallery/beach/lg41.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm41.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/24.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img class = "item" src="img/krapets/thumbnail/24.jpg" alt="" />
+                    <a href="img/gallery/beach/lg42.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm42.jpg" alt="" />
                     </a>
-                    </div>
+                    <a href="img/gallery/beach/lg43.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm43.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg49.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm49.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg50.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm50.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg51.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm51.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg52.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm52.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg55.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm55.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg56.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm56.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg61.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm61.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg66.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm66.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg67.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm67.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg68.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm68.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg71.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm71.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg73.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm73.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg74.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm74.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg75.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm75.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg77.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm77.jpg" alt="" />
+                    </a>
+                    
+                    <a href="img/gallery/beach/lg80.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm80.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg81.jpg" data-fancybox="group" data-caption="Крапец плаж">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm81.jpg" alt="" />
+                    </a>    
+                </div>
                 <section id="entertainment" class="home-section text-center bg-gray"></section>
                 <div class="row">
                     <h5>Магазини и заведения в близост до плаж Крапец</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
-                    </a>
-                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
-                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
-                    </a>
+                    <div class="col-lg-8 col-lg-offset-2">
+                    <p>В село Крапец можете да се насладите на прясно уловена черноморска риба и разнообразиято от морска храна, което предлага Черно море, Шабленското и Дуранкулашкото езеро.</p>
+                    </br>
+                    <p>Ресторанта и басейните на хотел <a href="http://yanitza-hotels.com/" target="_blanc">Яница</a></p>
+                    <p><a href="http://krapecbeach.bg/%d0%b1%d0%b8%d0%b9%d1%87-%d0%b1%d0%b0%d1%80/" target="_blanc">Krapets beach bar</a></p>
+                    <p><a href="https://www.facebook.com/barizgrev" target="_blanc">Бар Изгрев</a></p>
+                    <p><a href="hhttps://www.facebook.com/cabanabarkrapets/?hc_ref=ARROtIWGPDPtaxO3QGGCSqcuNnevvocFeE57YaGde71ObxBtWqthWCP6QrYyben5PeA&pnref=story" target="_blanc">Кабана бар</a></p>
+                    <p><a href="https://www.facebook.com/Wild-Duck-%D0%94%D0%B8%D0%B2%D0%B0%D1%82%D0%B0-%D0%9F%D0%B0%D1%82%D0%B8%D1%86%D0%B0-original-504739702958671/" target="_blanc">Дивата патица (с. Езерец)</a></p>
+                    <p><a href="https://pochivka.bg/ezeroto-k1540" target="_blanc">Езерото</a>, до Дуранкулак</p>
+                    <p><a href="https://pochivka.bg/chayka-k158" target="_blanc">Чайка</a>, Дуранкулак</p>
+                    </div>
                 </div>
                 <section id="infrastructure" class="home-section text-center bg-gray"></section>
                 <div class="row">
@@ -538,19 +696,63 @@
                     <a href="img/krapets/1.jpg" data-fancybox="group" data-caption="Caption #1">
                         <img src="img/krapets/thumbnail/1.jpg" alt="" />
                     </a>
-                     <a href="img/krapets/2.jpg" data-fancybox="group" data-caption="Caption #1">
+                    <a href="img/krapets/2.jpg" data-fancybox="group" data-caption="Caption #1">
                         <img src="img/krapets/thumbnail/2.jpg" alt="" />
                     </a>
                 </div>
                 <section id="landscape" class="home-section text-center bg-gray"></section>
                 <div class="row">
                     <h5>Природа</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    <div class="col-lg-8 col-lg-offset-2">
+                    <p>Крапец е спокойно кътче известно с пясъчните си дюни и птиците, който гнездят и зимуват около него. Селото е буквално кацнало на морския браг, заобиколено от обширни житни ниви, зеленчукови насаждения и езера - природни резервати.</p>
+                    </div>
+                    <a href="img/gallery/beach/lg09.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm09.jpg" alt="" />
                     </a>
-                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
-                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
+                    <a href="img/gallery/beach/lg44.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm44.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg45.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm45.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg16.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm16.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg18.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm18.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg46.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm46.jpg" alt="" />
+                    </a>
+                     <a href="img/gallery/beach/lg47.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm02.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg48.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm48.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg57.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm57.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg58.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm58.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg59.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm59.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg60.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm60.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg62.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm62.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg65.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm65.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg78.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm78.jpg" alt="" />
+                    </a>
+                    <a href="img/gallery/beach/lg82.jpg" data-fancybox="group" data-caption="Крапец природа">
+                        <img class = "item" src="img/gallery/thumbnail/beach/sm82.jpg" alt="" />
                     </a>
                 </div>
             </div>
@@ -568,7 +770,8 @@
                                 <div class="section-heading">
                                     <h2>Забележителности</h2>
                                     <i class="fa fa-2x fa-angle-down"></i>
-
+                                    <p>Възможностите за екскурзии в района са много: Дуранкулашко езеро, Шабленско езеро, Шабленска тузла, Камен бряг,  
+                                        Нос Калиакра, Тауклиман, Тюленово, Яйлата, Русалка, Калиакра, Болата</p>
                                 </div>
                             </div>
                         </div>
@@ -576,9 +779,18 @@
                 </div>
             </div>
             <div class="container">
-                 <div class="row">
-                    <h5>Калиакра</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                <div class="row">
+                    <h5>Крапец</h5>
+                    <p>В околностите на Крапец можете да посетите Дуранкулашко езеро и острова на Кибела</p>
+                    <div class="col-lg-8 col-lg-offset-2">
+                    <h5>Дуранкулашкото езеро</h5>
+                    <p>На един километър североизточно от Крапец е разположено Дуранкулашкото езеро. 
+                        С изобилието от червеноперка, таранка, сом, бяла риба, каракуда, раци и шаран езерото привлича 
+                        любителите на риболова. Сериозен проблем е бракониерството - хвърляне на мрежи, кошчета за раци, 
+                        убиване на риба с ток. Съгласно закона, подобни действия са забранени, но местното управление 
+                        все още не може да разреши проблема. По произход езерото е естествен лиман. Дълбочината му достига 
+                        до 4 метра. На изток от морето го отделя плажна ивица. </p>
+                    </div>
                     <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
                         <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
                     </a>
@@ -607,18 +819,7 @@
                     <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
                         <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
                     </a>
-                </div>
-                <section id="durankulak" class="home-section text-center bg-gray"></section>
-                <div class="row">
-                    <h5>Дуранкулак</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #1">
-                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
-                    </a>
-                    <a href="img/krapets/krapets-beach-13.jpg" data-fancybox="group" data-caption="Caption #2">
-                        <img src="img/krapets/thumbnail/krapets-beach-13_tn.jpg" alt="" />
-                    </a>
-                </div>
+                </div> 
             </div>
         </section>
         <!-- /Section: landmarks -->
@@ -640,19 +841,10 @@
                     </div>
                 </div>
             </div>
-            <div id="main-content">
-                <h2>Намерете ни и в <strong>Google Maps</strong>:</h2>
-                <br class="clear" />
-                <!--                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCp6H3I1QqMS2sTNkWoK7nf3Rq3hq98BaU'></script><div style='overflow:hidden;height:413px;width:746px;'><div id='gmap_canvas' style='height:413px;width:746px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>google maps widget html</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=c5b2f8c99e8d7dfa1d51f5f82b58fdb8825435fd'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:19,center:new google.maps.LatLng(43.6255130300338,28.56907647771471),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.6255130300338,28.56907647771471)});infowindow = new google.maps.InfoWindow({content:'<strong>Krapets Holiday</strong><br><br> Krapets<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>-->
-                <div class="row">
-                    <div class="col-lg-2 col-lg-offset-5">
-                        <hr class="marginbot-50">
-                    </div>
-                </div>
+            <div id="main-content">  
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="boxed-grey">
-
                             <div id="sendmessage">Your message has been sent. Thank you!</div>
                             <div id="errormessage"></div>
                             <form id="contact-form" action="" method="post" role="form" class="contactForm">
@@ -701,27 +893,55 @@
                             <h5>За контакт</h5>
                             <address>
                                 <strong>Крапец Холидей</strong><br>
-                                село Крапец<br>
-                                община Шабла<br>
-                                <abbr title="Phone">Телефон:</abbr> 0893 650 522
+                                село Крапец, община Шабла<br>
+                                <abbr title="Phone">Телефони:</abbr><br>
+                                0893 650 522<br>
+                                0895 681 745
                             </address>
-
                             <address>
                                 <strong>Email</strong><br>
-                                <a href="mailto:">krapets_holiday@abv.bg</a>
+                                <a href="mailto:">krapets_holiday@abv.bg</a><br>
+                                <a href="mailto:">krapets_holiday@krapets.bg</a>
                             </address>	
                             <address>
-                                <strong>Станете ни приятел в Facebook</strong><br>
-                                <ul class="company-social">
+                                <strong><a href="https://web.facebook.com/profile.php?id=100010404676081&fref=ts" target="_blank">Facebook</a></strong><br>
+<!--                                <ul class="company-social">
                                     <li class="social-facebook"><a href="https://web.facebook.com/profile.php?id=100010404676081&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>	
+                                </ul>	-->
                             </address>					
 
                         </div>	
                     </div>
                 </div>	
-
+                <br>
+                <h2>Намерете ни и в <strong>Google Maps</strong>:</h2>
+                <br class="clear" />
+                <div class="col col-lg-1"></div>
+                <div id="map" class="col-12 col-md-auto"></div>
+                <div class="col col-lg-1"></div>
+                <script>
+      function initMap() {
+          <!--43°37'17.7"N 28°33'51.8"E -->
+        var uluru = {lat: 43.621575, lng: 28.564400};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKYSXKj4K1EpGEY52gAE_94n5nPmGn_fU&callback=initMap">
+    </script>
             </div>
+            <div class="row">
+                    <div class="col-lg-2 col-lg-offset-5">
+                        <hr class="marginbot-50">
+                    </div>
+                </div>
         </section>
         <!-- /Section: contact -->
 
@@ -738,7 +958,7 @@
                         </div>
                         <p>&copy;Krapets Holiday 2017</p>
                         <div class="credits">
-                            <a target="_blank" href="https://web.facebook.com/HousesKrapetsHoliday/?fref=ts">Харесайте нашата страница в Facebook</a>
+                            <a target="_blank" href="https://www.facebook.com/HousesKrapetsHoliday/?ref=aymt_homepage_panel">Харесайте нашата страница в Facebook</a>
                         </div>
                     </div>
                 </div>	
@@ -757,7 +977,7 @@
         <script src="contactform/contactform.js"></script>  
         <script>
 
-</script>
+        </script>
     </body>
 
 </html>
