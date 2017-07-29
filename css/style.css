@@ -168,7 +168,10 @@ a:focus {
     outline: 0;
 }
 /*My*/
-
+  .img-responsive {
+        display: inline;
+    }
+    
   #map {
         height: 400px;
         width: 80%;

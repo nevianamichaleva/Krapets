@@ -18,7 +18,7 @@ window.onload = function () {
         var i = Math.floor((Math.random() * 12));
 
         $('#intro')
-                .animate({opacity: 0.1}, 'slow', function () {
+                .animate({opacity: 0}, 'slow', function () {
                     $(this)
                             .css({'background-image': 'url(' + BackgroundImg[i] + ')'})
                             .animate({opacity: 1}, 'fast')
