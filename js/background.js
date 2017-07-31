@@ -2,27 +2,40 @@ window.onload = function () {
 
     function changeImage() {
         var BackgroundImg = [
-            "./img/krapets-beach-13.jpg",
-            "./img/makove.jpg",
-            "./img/gallery/courtyard/img_15.jpg",
-            "./img/lg54.jpg",
-            "./img/gallery/beach/lg77.jpg",
-            "./img/gallery/house4/lg79.jpg",
-            "./img/gallery/house6/img_12.jpg",
-            "./img/gallery/kitchen/img_20.jpg",
-            "./img/gallery/kitchen/img_41.jpg",
-            "./img/gallery/beach/lg67.jpg",
-            "./img/gallery/courtyard/img_16.jpg",
-            "./img/gallery/courtyard/lg14.jpg",
+            "./img/gallery/intro/1.jpg",
+            "./img/gallery/intro/2.jpg",
+            "./img/gallery/intro/3.jpg",
+            "./img/gallery/intro/4.jpg",
+            "./img/gallery/intro/5.jpg",
+            "./img/gallery/intro/6.jpg",
+            "./img/gallery/intro/7.jpg",
+            "./img/gallery/intro/8.jpg",
+            "./img/gallery/intro/9.jpg",
+            "./img/gallery/intro/10.jpg",
+            "./img/gallery/intro/11.jpg",
+            "./img/gallery/intro/12.jpg",
+            "./img/gallery/intro/13.jpg",
+            "./img/gallery/intro/14.jpg",
+            "./img/gallery/intro/15.jpg"
         ];
-        var i = Math.floor((Math.random() * 12));
+        var i = Math.floor(Math.random() * 15);
 
-        $('#intro')
-                .animate({opacity: 0}, 'slow', function () {
-                    $(this)
-                            .css({'background-image': 'url(' + BackgroundImg[i] + ')'})
-                            .animate({opacity: 1}, 'fast')
-                });
+        var img = $("#intro").css('background-image');
+        var str = img.indexOf("img");
+        var str1 = img.substr(str);
+        var curr = str1.indexOf('"');
+        var currImg = str1.slice(0, curr);
+        var introHeight = $("#intro").css('height');
+       
+        $('.myIntro').css('height', introHeight);
+
+        $('.myIntro').css({'background-image': 'url(./' + currImg + ')'})
+
+        $("#intro").animate({opacity: 0}, 2000, function () {
+
+            $(this).css({'background-image': 'url(' + BackgroundImg[i] + ')'})
+                    .animate({opacity: 1}, {duration: 3000});
+        });
 
     }
     window.setInterval(changeImage, 5000);

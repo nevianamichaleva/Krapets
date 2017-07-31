@@ -340,21 +340,31 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../img/intro.jpg) no-repeat top center;
-    background-size: cover;
-    height: auto;
+	background: url(../img/gallery/intro/intro.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+}
+.myIntro {
+	width:100%;
+	position: absolute;
+        top:0;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
-#intro.intro {
+#intro.intro, .myIntro {
 	padding:20% 0 0 0;
 }
 
-.intro .slogan {
+.intro .slogan, .myIntro .slogan {
 	text-align: center;
 
 }
 
-.intro .page-scroll {
+.intro .page-scroll, .myIntro .page-scroll {
 	text-align: center;
 }
 
@@ -366,7 +376,7 @@ hr {
     font-size: 18px;
 }
 
-.intro .slogan h2 {
+.intro .slogan h2, .myIntro .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
 	font-size: 50px;
@@ -382,7 +392,7 @@ hr {
 	text-shadow: -1px 0 1px #000;
 }
 
-.intro .slogan h4 {
+.intro .slogan h4, .myIntro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
 }
