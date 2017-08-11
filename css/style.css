@@ -168,6 +168,10 @@ a:focus {
     outline: 0;
 }
 /*My*/
+.list-group-item {
+    border: none;
+        background-color: transparent;
+}
   .img-responsive {
         display: inline;
     }
@@ -317,9 +321,9 @@ hr {
 	background: #fff;
 }
 
-.bg-gray {
+/*.bg-gray {
 	background: #f8f8f8;
-}
+}*/
 
 
 .bg-dark {
@@ -403,7 +407,7 @@ hr {
 ============================ */
 
 .boxed-grey {
-	background: #f9f9f9;
+/*	background: #f9f9f9;*/
 	padding: 20px;
 }
 
@@ -794,7 +798,11 @@ Parallax
     margin-top: 0;
 }
 
+/*Magnifier glass*/
 
+.picture {
+   cursor: zoom-in;
+}
 /* Media queries */
 
 @media(min-width:767px) {
@@ -843,6 +851,10 @@ Parallax
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
+        
+        .mobile {
+            display: none;
+        }
 
 	
 }
@@ -871,5 +883,8 @@ Parallax
 		font-size: 20px;
 	}
         
+        .mobile {
+            display: none;
+        }
 	
 }

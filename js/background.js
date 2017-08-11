@@ -16,9 +16,14 @@ window.onload = function () {
             "./img/gallery/intro/12.jpg",
             "./img/gallery/intro/13.jpg",
             "./img/gallery/intro/14.jpg",
-            "./img/gallery/intro/15.jpg"
+            "./img/gallery/intro/15.jpg",
+            "./img/gallery/intro/16.jpg",
+            "./img/gallery/intro/17.jpg",
+            "./img/gallery/intro/18.jpg",
+            "./img/gallery/intro/19.jpg",
+            "./img/gallery/intro/20.jpg"
         ];
-        var i = Math.floor(Math.random() * 15);
+        var i = Math.floor(Math.random() * 20);
 
         var img = $("#intro").css('background-image');
         var str = img.indexOf("img");
